@@ -30,12 +30,11 @@ body {
     }
 /*Header Section*/
 
-/*Top Section*/
-.top-content{
+/*First Section*/
+.section-one{
     display:flex;
     flex-direction:row;
     background:#1F2937;
-    padding:25px 50px;
     align-items:center;
     gap:30px;
     padding:100px 100px
@@ -81,9 +80,9 @@ body {
         margin-top:-05px;
 
     }
-/* Top Section */
+/*First Section */
 
-/*Mid section*/
+/*Second section with cards*/
 .section-two{
     display:flex;
     flex-direction:column;
@@ -119,8 +118,13 @@ body {
 .info-header{
     font-size:36px;
     font-weight:900;
+    margin-bottom:40px;
 }
 
 .card p {
     color:rgba(37, 25, 25, 0.643);
 }
+/*Second Section With Cards*/
+
+/*Third Section*/
+
