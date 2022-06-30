@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#1F2937;
+    padding:0px 50px;
+}
+
+h2 {
+    font-size:24px;
+    color:#f9faf8;
+}
