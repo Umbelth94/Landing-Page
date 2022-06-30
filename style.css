@@ -83,3 +83,27 @@ body {
     }
 /* Top Section */
 
+/*Mid section (WIP)*/
+.section-two{
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+}
+    .cards{
+        display:flex;
+        justify-content:center;
+    }
+    .card {
+        display:flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+
+    }
+
+.image-border{
+    border:004px solid #3882f6;
+    border-radius:04px;
+    height:150px;
+    width:150px;
+
+}
