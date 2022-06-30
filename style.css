@@ -76,39 +76,51 @@ body {
         background-color:#3882f6;
         width:100px;
         height:25px;
-        border-radius:04px;
+        border-radius:10px;
         border:1px solid #3882f6;
         margin-top:-05px;
 
     }
 /* Top Section */
 
-/*Mid section (WIP)*/
+/*Mid section*/
 .section-two{
-    border:1px solid black;
     display:flex;
     flex-direction:column;
-    align-items:center;
+    text-align:center;
+    padding-bottom:50px;
+    margin-top:20px;
 }
     .cards{
         display:flex;
         justify-content:center;
-        padding:50px;
+        gap:45px;
+
     }
     .card {
         text-align:center;
-        border:02px solid black;
         display:flex;
         flex-wrap:wrap;
         align-content:center;
         justify-content:center;
-
+        width:135px;
     }
 
 .image-border{
+    display:flex;
+    align-items:center;
+    justify-content:center;
     border:04px solid #3882f6;
-    border-radius:04px;
-    height:125px;
-    width:125px;
+    border-radius:15px;
+    height:135px;
+    width:135px;
+}
 
+.info-header{
+    font-size:36px;
+    font-weight:900;
+}
+
+.card p {
+    color:rgba(37, 25, 25, 0.643);
 }
