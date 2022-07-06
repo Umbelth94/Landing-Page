@@ -127,4 +127,24 @@ body {
 /*Second Section With Cards*/
 
 /*Third Section*/
+.section-three{
+    align-items:Center;
+    display:flex;
+    flex-direction:column;
+    background:#E5E7EB;
+    padding:75px 125px;
+}
+
+.quote{
+font-weight:lighter;
+font-size:32px;
+font-style:italic;
+}
+
+.quote-cite{
+align-self:flex-end;
+font-weight:bold;    
+margin-top:-20px;
+font-size:20px;
+}
 
