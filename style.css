@@ -86,6 +86,7 @@ body {
     } */
     .hero{
         font-size:48px;
+        text-shadow:2px 2px 15px rgb(242, 5, 214);
         color:white;
         font-weight:900;
         margin-bottom:-05px;
@@ -139,7 +140,9 @@ body {
 }
 
 .info-header{
-    font-size:36px;
+    color:white;
+    text-shadow:2px 2px 15px rgb(242, 5, 214);
+    font-size:40px;
     font-weight:900;
     margin-bottom:40px;
 }
