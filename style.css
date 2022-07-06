@@ -227,10 +227,11 @@ padding:500px 150px;
 /*CTA Modal*/
 
 /*Footer*/
-footer{
+.footer{
     /* background:#1F2937; */
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    align-items:center;
     padding:30px;
 }
     .copyright{
