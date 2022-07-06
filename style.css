@@ -144,24 +144,23 @@ body {
     background:#E5E7EB;
     padding:75px 275px;
 }
-    .quote-box{
-        display:flex;
-        flex-direction:column;
-        width:600px;
+.quote-box{
+    display:flex;
+    flex-direction:column;
+    width:600px;
+}
+    .quote{
+    font-weight:lighter;
+    font-size:32px;
+    font-style:italic;
     }
-.quote{
-/* width:600px; */
-font-weight:lighter;
-font-size:32px;
-font-style:italic;
-}
 
-.quote-cite{
-align-self:flex-end;
-font-weight:bold;    
-margin-top:-20px;
-font-size:20px;
-}
+    .quote-cite{
+    align-self:flex-end;
+    font-weight:bold;    
+    margin-top:-20px;
+    font-size:20px;
+    }
 /*Third Section*/
 
 /*CTA Modal*/
