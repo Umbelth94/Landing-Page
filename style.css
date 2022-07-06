@@ -1,4 +1,7 @@
-* {Font-family:"roboto","Sans Serif"}
+* {
+Font-family:"roboto","Sans Serif";
+box-sizing:border-box;
+}
 
 body {
     display:flex;
@@ -127,12 +130,13 @@ body {
 /*Second Section With Cards*/
 
 /*Third Section*/
+/*Maybe try this section using one container on each side of the content and then flex-grow:1 each container to see if I can use that to center the quote?  The margins look gross how it is currently when the window is narrow*/
 .section-three{
     align-items:Center;
     display:flex;
     flex-direction:column;
     background:#E5E7EB;
-    padding:75px 125px;
+    padding:75px 275px;
 }
 
 .quote{
@@ -147,4 +151,37 @@ font-weight:bold;
 margin-top:-20px;
 font-size:20px;
 }
+/*Third Section*/
 
+/*CTA Modal*/
+.section-four{
+    display:flex;
+    justify-content:center;
+    border:2px solid black;
+}
+.action-box{
+    display:flex;
+    justify-content:space-between;
+    background:#3882f6;
+    align-items:center;
+    height:100px;
+    width:600px;
+    border-radius:4px;
+    padding:10px 25px;
+}
+    .action-box-left{
+        display:flex;
+        flex-direction:column;
+        color:white;
+    }
+        .action-call{
+            font-size:18px;
+            font-weight:bold;
+        }
+        .action-subtext{
+            font-size:14px;
+            font-weight:lighter;
+        }
+    
+
+/*CTA Modal*/
