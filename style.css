@@ -10,17 +10,19 @@ body {
     height:100vh;
 }
 /*Cool background trick stuff that I'm going to try*/
-.background-two{
-    background:no-repeat,url(./images/goose-bg1.jpeg);
+.background-one{
+    background:no-repeat,linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(./images/goosebg1.jpeg);
     background-size:cover;
     background-attachment:fixed;
+    background-position:center;
+}
+.background-two{
+    background:no-repeat,linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(./images/goosebg2.jpeg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
 }
 
-.background-one{
-    background:no-repeat,url(./images/goose-bg2.jpeg);
-    background-size:cover;
-    background-attachment:fixed;
-}
 
 /*Header Section*/
 .header{
@@ -28,7 +30,6 @@ body {
     flex:1;
     align-items:center;
     justify-content:space-between;
-    background:#1F2937;
     padding:0px 150px;
     margin-bottom:-20px;
 }
@@ -59,7 +60,7 @@ body {
     /* background:#1F2937; */
     align-items:center;
     gap:30px;
-    padding:100px 150px
+    padding:100px 175px
     }
     .left-content{
  
@@ -71,11 +72,10 @@ body {
         gap:05px
     }
     .left-content > .hero-subtext {
-        color:rgba(255, 255, 255, 0.643);
-        margin-top:-01px
+        color:rgba(249, 249, 249, 0.892);
     }
     /*Placeholder image box*/
-    .placeholder{
+    /* .placeholder{
         display:flex;
         flex:1;
         background:gray;
@@ -83,7 +83,7 @@ body {
         justify-content:center;
         align-items:center;
         color:white;
-    }
+    } */
     .hero{
         font-size:48px;
         color:white;
@@ -93,12 +93,12 @@ body {
     }
     .button-one {
         align-self:flex-start;
-        color:white;
-        background-color:#3882f6;
+        color:rgb(4, 0, 0);
+        background-color:#b702c8;
         width:115px;
         height:30px;
         border-radius:05px;
-        border:1px solid #3882f6;
+        border:1px solid #b702c8;
         margin-top:-05px;
 
     }
@@ -110,7 +110,7 @@ body {
     flex:1;
     flex-direction:column;
     text-align:center;
-    padding-bottom:50px;
+    padding-bottom:500px;
     margin-top:20px;
 }
     .cards{
@@ -156,7 +156,7 @@ body {
     align-items:Center;
     display:flex;
     flex-direction:column;
-    background:#E5E7EB;
+    background:#a90fe1fd;
     padding:75px 275px;
 }
 .quote-box{
@@ -183,7 +183,7 @@ body {
     display:flex;
     flex:1;
     justify-content:center;
-padding:100px 150px;
+padding:500px 150px;
 }
 .action-box{
     display:flex;
@@ -225,11 +225,10 @@ padding:100px 150px;
 
 /*Footer*/
 footer{
-    background:#1F2937;
+    /* background:#1F2937; */
     display:flex;
     justify-content:center;
     padding:30px;
-    margin-bottom:105px;
 }
     .copyright{
         font-size:15px;
