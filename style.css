@@ -9,6 +9,18 @@ body {
     margin:-8px;
     height:100vh;
 }
+/*Cool background trick stuff that I'm going to try*/
+.background-two{
+    background:no-repeat,url(./images/goose-bg1.jpeg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.background-one{
+    background:no-repeat,url(./images/goose-bg2.jpeg);
+    background-size:cover;
+    background-attachment:fixed;
+}
 
 /*Header Section*/
 .header{
@@ -36,12 +48,15 @@ body {
     }
 /*Header Section*/
 
+
+
+
 /*First Section*/
 .section-one{
     display:flex;
     flex:1;
     flex-direction:row;
-    background:#1F2937;
+    /* background:#1F2937; */
     align-items:center;
     gap:30px;
     padding:100px 150px
