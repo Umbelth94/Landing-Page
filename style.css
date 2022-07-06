@@ -9,7 +9,7 @@ body {
 }
 
 /*Header Section*/
-.header {
+.header{
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -138,8 +138,13 @@ body {
     background:#E5E7EB;
     padding:75px 275px;
 }
-
+    .quote-box{
+        display:flex;
+        flex-direction:column;
+        width:600px;
+    }
 .quote{
+/* width:600px; */
 font-weight:lighter;
 font-size:32px;
 font-style:italic;
@@ -161,6 +166,8 @@ padding:100px 150px;
 }
 .action-box{
     display:flex;
+    /*The flex quality here allows it to flex and keep the same margins from the edge of the page as the header and first section content.  
+    Can't tell if I want this or not, but for now it is an easy way to keep the margins even!*/
     flex:1;
     justify-content:space-between;
     background:#3882f6;
@@ -169,6 +176,7 @@ padding:100px 150px;
     border-radius:10px;
     padding:25px 100px;
 }
+    
     .action-box-left{
         display:flex;
         flex-direction:column;
@@ -192,6 +200,21 @@ padding:100px 150px;
         border-radius:05px;
         border:2px solid white;
     }
-    
-
 /*CTA Modal*/
+
+/*Footer*/
+footer{
+    background:#1F2937;
+    display:flex;
+    justify-content:center;
+    padding:30px;
+    margin-bottom:-5px;
+}
+    .copyright{
+        font-size:15px;
+        color:white;
+        font-weight:100;
+    }
+
+
+/*Footer*/
