@@ -242,3 +242,10 @@ padding:500px 150px;
 
 
 /*Footer*/
+
+.profile{
+    border-radius:25px;
+    border:04px solid #3882f6;
+    height:150px;
+    width:150px;
+}
