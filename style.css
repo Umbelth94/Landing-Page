@@ -116,49 +116,52 @@ body {
 }
     .cards{
         display:flex;
+        flex-wrap:wrap;
         justify-content:center;
+        align-items:flex-start;
         gap:45px;
 
     }
     .card {
-        text-align:center;
         display:flex;
         flex-wrap:wrap;
         align-content:center;
         justify-content:center;
-        width:135px;
+        width:150px;
+    }
+    
+    .info-header{
+        color:white;
+        text-shadow:2px 2px 15px rgb(242, 5, 214);
+        font-size:40px;
+        font-weight:900;
+        margin-bottom:40px;
+    }
+    
+    .card p {
+        color:rgba(255, 255, 255, 0.96);
+        font-size:18px;
+        font-weight:bold;
     }
 
-.image-border{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:04px solid #3882f6;
-    border-radius:15px;
-    height:135px;
-    width:135px;
-}
-
-.info-header{
-    color:white;
-    text-shadow:2px 2px 15px rgb(242, 5, 214);
-    font-size:40px;
-    font-weight:900;
-    margin-bottom:40px;
-}
-
-.card p {
-    color:rgba(37, 25, 25, 0.643);
-}
-/*Second Section With Cards*/
-
-/*Third Section*/
-/*Maybe try this section using one container on each side of the content and then flex-grow:1 each container to see if I can use that to center the quote?  The margins look gross how it is currently when the window is narrow*/
-.section-three{
-    flex:1;
-    align-items:Center;
-    display:flex;
-    flex-direction:column;
+    .card div {
+        color:rgb(151, 187, 219)
+    }
+    .profile{
+        border-radius:25px;
+        border:04px solid #a903bc;
+        height:150px;
+        width:150px;
+    }
+    /*Second Section With Cards*/
+    
+    /*Third Section*/
+    /*Maybe try this section using one container on each side of the content and then flex-grow:1 each container to see if I can use that to center the quote?  The margins look gross how it is currently when the window is narrow*/
+    .section-three{
+        flex:1;
+        align-items:Center;
+        display:flex;
+        flex-direction:column;
     background:#a90fe1fd;
     padding:75px 275px;
 }
@@ -194,7 +197,7 @@ padding:500px 150px;
     Can't tell if I want this or not, but for now it is an easy way to keep the margins even!*/
     flex:1;
     justify-content:space-between;
-    background:#3882f6;
+    background:#a90fe1fd;
     align-items:center;
     height:125px;
     border-radius:10px;
@@ -217,8 +220,8 @@ padding:500px 150px;
         }
     
     .signup-two{
-        color:white;
-        background-color:#3882f6;
+        background:#910396;
+        background-color:#a90fe1fd;
         width:115px;
         height:30px;
         border-radius:05px;
@@ -242,10 +245,3 @@ padding:500px 150px;
 
 
 /*Footer*/
-
-.profile{
-    border-radius:25px;
-    border:04px solid #3882f6;
-    height:150px;
-    width:150px;
-}
